@@ -1,12 +1,49 @@
-# React + Vite
+ # CuroSoft Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CuroSoft Frontend** is a modern React.js application designed to interact with the CuroSoft Django REST API backend. It provides a user-friendly interface for patients and doctors, enabling seamless medical appointment booking, report viewing, prescription download, and AI-powered doctor suggestions.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> (future integration)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Role-Based Dashboard**
+  - Different dashboards for Doctors and Patients
+
+- **Authentication System**
+  - Register/Login with JWT token storage
+  - Role detection and conditional routing
+
+- **AI Doctor Suggestion**
+  - Users can input symptoms to receive suitable doctor suggestions via ML/API
+
+- **Online Appointment Booking**
+  - Patients can view available doctors and book appointments
+  - Doctors can manage their appointments
+
+- **Medical Reports(future integration) & Prescriptions**
+  - Patients can view and download their test results and prescriptions
+  - Doctors can upload and manage reports
+
+- **Responsive Design**
+  - Fully mobile-friendly and clean UI
+  - Built with Tailwind CSS
+
+## Tech Stack
+
+- **Frontend**: React.js, React Router
+- **State Management**: Context API, useReducer
+- **Authentication**: JWT Token-based (stored in localStorage)
+- **API Client**: Axios
+- **Styling**: Tailwind CSS
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Habib-1/CuroSoft-frontend.git
+cd CuroSoft-frontend
+
+
